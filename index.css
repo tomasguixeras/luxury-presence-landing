@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid blueviolet; */
+    background-color: #ECFAFC;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+    /* font-size: 20px; */
+}
+
+/* Landing Page Styles */
+#landingPage{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid red; */
+    /* display: flex; */
+}
+#landingPage video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#title{
+    /* border : 1px solid red; */
+    position: absolute;
+    min-width: 100%;
+    min-height: 40%;
+    /* min-height: 85%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#title h2{
+    font-family: 'Dosis', sans-serif;
+    font-size:70px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+    text-shadow: 1px 1px 4px white;
+}
+#title h4{
+    margin-top: 0px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px white;
+}
+
+/* Introduction Page Styles */
+#presentation{
+    background-image: url("data:image/svg+xml,%3Csvg class='buttonWaves' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23d5f3f9' fill-opacity='1' d='M0,192L26.7,165.3C53.3,139,107,85,160,58.7C213.3,32,267,32,320,64C373.3,96,427,160,480,165.3C533.3,171,587,117,640,117.3C693.3,117,747,171,800,202.7C853.3,235,907,245,960,224C1013.3,203,1067,149,1120,117.3C1173.3,85,1227,75,1280,85.3C1333.3,96,1387,128,1413,144L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* border: 1px solid red; */
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#presentationDiv{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#presentationDiv h3{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+#presentationDiv p{
+    font-size: 17px;
+    font-weight: 200;
+    text-align: justify;
+}
+#presentationDiv #Here{
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Reasons Container Display */
+.ImageRight{
+    /* border: 1px solid yellow; */
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ImageLeft{
+    /* border: 1px solid yellow; */
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    /* border: 1px solid red; */
+    padding: 0px;
+    width: 60%;
+    text-align: justify;
+    font-weight: 200;
+}
+.text h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 0px;
+}
+
+/* First Reason Page Styles */
+#firstReason{
+    background-image: url("data:image/svg+xml,%3Csvg class='buttonWaves2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23caf0f8' fill-opacity='1' d='M0,192L26.7,165.3C53.3,139,107,85,160,58.7C213.3,32,267,32,320,64C373.3,96,427,160,480,165.3C533.3,171,587,117,640,117.3C693.3,117,747,171,800,202.7C853.3,235,907,245,960,224C1013.3,203,1067,149,1120,117.3C1173.3,85,1227,75,1280,85.3C1333.3,96,1387,128,1413,144L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #d5f3f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ImageLeft .Image{
+    /* border: 1px solid red; */
+    margin-right: 100px;
+    width: 550px;
+    height: auto;
+    border-radius: 7px;
+}
+.ImageRight .Image{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    width: 550px;
+    height: auto;
+    border-radius: 7px;
+}
+/* Second Reason Page Styles */
+#secondReason{
+    background-image: url("data:image/svg+xml,%3Csvg class='buttonWaves' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23BFEEF6' fill-opacity='1' d='M0,192L26.7,165.3C53.3,139,107,85,160,58.7C213.3,32,267,32,320,64C373.3,96,427,160,480,165.3C533.3,171,587,117,640,117.3C693.3,117,747,171,800,202.7C853.3,235,907,245,960,224C1013.3,203,1067,149,1120,117.3C1173.3,85,1227,75,1280,85.3C1333.3,96,1387,128,1413,144L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #caf0f8;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Third Reason Page Styles */
+#thirdReason{
+    background-image: url("data:image/svg+xml,%3Csvg class='buttonWaves' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23AFE9F4' fill-opacity='1' d='M0,192L26.7,165.3C53.3,139,107,85,160,58.7C213.3,32,267,32,320,64C373.3,96,427,160,480,165.3C533.3,171,587,117,640,117.3C693.3,117,747,171,800,202.7C853.3,235,907,245,960,224C1013.3,203,1067,149,1120,117.3C1173.3,85,1227,75,1280,85.3C1333.3,96,1387,128,1413,144L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #BFEEF6;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Fourth Reason Page Styles */
+#fourthReason{
+    background-image: url("data:image/svg+xml,%3Csvg class='buttonWaves' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%2390e0ef' fill-opacity='1' d='M0,192L26.7,165.3C53.3,139,107,85,160,58.7C213.3,32,267,32,320,64C373.3,96,427,160,480,165.3C533.3,171,587,117,640,117.3C693.3,117,747,171,800,202.7C853.3,235,907,245,960,224C1013.3,203,1067,149,1120,117.3C1173.3,85,1227,75,1280,85.3C1333.3,96,1387,128,1413,144L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #AFE9F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Close + Footer */
+#closeFooter{
+    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%231BA7BF' fill-opacity='1' d='M0,32L80,69.3C160,107,320,181,480,181.3C640,181,800,107,960,85.3C1120,64,1280,96,1360,112L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* padding-top: 40px; */
+    height: 100vh;
+    background-color: #90e0ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+}
+#joinUs{
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+
+}
+#joinUs h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+.employee h4{
+    /* text-align: center; */
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 400;
+}
+.employee p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.employee a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.employee{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px;
+}
+#mapaHorario{
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+.material-symbols-outlined {
+    border: 1px solid red;
+    height: fit-content;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+#mapa{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+#reloj{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+#mapa img{
+    width: 60px;
+    height: auto;
+}
+#reloj img{
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+.locationText h5{
+    margin: 2px;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 400;
+}
+.locationText p{
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.locationText{
+    padding-left: 20px;
+}
+#signature a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
